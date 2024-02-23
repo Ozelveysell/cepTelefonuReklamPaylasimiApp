@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1440F53A2AB8ADB20073E48D /* IlanlarimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440F5392AB8ADB20073E48D /* IlanlarimVC.swift */; };
+		1440F53E2AB8AE2E0073E48D /* IlanlarimDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440F53D2AB8AE2E0073E48D /* IlanlarimDetayVC.swift */; };
+		1440F5402AB8AE5B0073E48D /* IlanlarimOzellikCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440F53F2AB8AE5B0073E48D /* IlanlarimOzellikCell.swift */; };
+		1440F5422AB8AE870073E48D /* IlanlarimCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440F5412AB8AE870073E48D /* IlanlarimCollectionCell.swift */; };
+		1440F5442AB8AF200073E48D /* IlanlarimCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440F5432AB8AF200073E48D /* IlanlarimCell.swift */; };
+		1463FB322AC0B16B003E1E13 /* IlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FB312AC0B16B003E1E13 /* IlanModel.swift */; };
+		149579012AF284A400923E67 /* IsletmeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149579002AF284A400923E67 /* IsletmeVC.swift */; };
+		149579032AF3D52C00923E67 /* IsletmeProfiliVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149579022AF3D52C00923E67 /* IsletmeProfiliVC.swift */; };
+		149579052AF3E67B00923E67 /* IsletmelerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149579042AF3E67B00923E67 /* IsletmelerViewController.swift */; };
+		149579072AF3EA9100923E67 /* isletmelerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149579062AF3EA9100923E67 /* isletmelerTableViewCell.swift */; };
+		149579092AF3F20A00923E67 /* IsletmeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149579082AF3F20A00923E67 /* IsletmeModel.swift */; };
+		1495790B2AF68CD500923E67 /* IsletmelerDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1495790A2AF68CD500923E67 /* IsletmelerDetayVC.swift */; };
+		14A2A43C2AAB2894004D5A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A43B2AAB2894004D5A88 /* AppDelegate.swift */; };
+		14A2A43E2AAB2894004D5A88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A43D2AAB2894004D5A88 /* SceneDelegate.swift */; };
+		14A2A4402AAB2894004D5A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A43F2AAB2894004D5A88 /* ViewController.swift */; };
+		14A2A4432AAB2894004D5A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A2A4412AAB2894004D5A88 /* Main.storyboard */; };
+		14A2A4452AAB2895004D5A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A2A4442AAB2895004D5A88 /* Assets.xcassets */; };
+		14A2A4482AAB2895004D5A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A2A4462AAB2895004D5A88 /* LaunchScreen.storyboard */; };
+		14A2A4522AABA2A5004D5A88 /* GirisYapEpostaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A4512AABA2A4004D5A88 /* GirisYapEpostaVC.swift */; };
+		14A2A4572AABAD5A004D5A88 /* HesapOlusturVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A4562AABAD5A004D5A88 /* HesapOlusturVC.swift */; };
+		14A2A4592AABBC52004D5A88 /* HesapOlusturEpostaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A4582AABBC52004D5A88 /* HesapOlusturEpostaVC.swift */; };
+		14A2A45B2AABBD89004D5A88 /* HesapOlusturSifreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A45A2AABBD89004D5A88 /* HesapOlusturSifreVC.swift */; };
+		14AB636D2AC7010700A32061 /* KategoriAcilSatilikCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB636C2AC7010700A32061 /* KategoriAcilSatilikCollectionViewCell.swift */; };
+		14AB63702AC7113B00A32061 /* MesajlarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB636F2AC7113B00A32061 /* MesajlarTableViewCell.swift */; };
+		14AB63722AC7154200A32061 /* AnaSayfaMesajGonderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB63712AC7154200A32061 /* AnaSayfaMesajGonderVC.swift */; };
+		14AB63742AC7157C00A32061 /* AnaSayfaMesajGonderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB63732AC7157C00A32061 /* AnaSayfaMesajGonderTableCell.swift */; };
+		14AB63762AC7164A00A32061 /* Mesaj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB63752AC7164A00A32061 /* Mesaj.swift */; };
+		14AB63782AC8419D00A32061 /* MesajlarOnizleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB63772AC8419D00A32061 /* MesajlarOnizleme.swift */; };
+		14AB637A2AC84AF400A32061 /* MesajlarIcerikVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB63792AC84AF400A32061 /* MesajlarIcerikVC.swift */; };
+		14AB637C2AC84B4100A32061 /* MesajlarIcerikTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB637B2AC84B4100A32061 /* MesajlarIcerikTableViewCell.swift */; };
+		14B034022AC3142E007A07C0 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 14B034012AC3142E007A07C0 /* SDWebImage */; };
+		14B034042AC5FA32007A07C0 /* KategoriCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B034032AC5FA32007A07C0 /* KategoriCollectionViewCell.swift */; };
+		14B034062AC6D477007A07C0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 14B034052AC6D477007A07C0 /* FirebaseFirestore */; };
+		14B9B9942AD2F4830061483B /* ConversationsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9932AD2F4830061483B /* ConversationsModels.swift */; };
+		14B9B9962AD2F5450061483B /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9952AD2F5450061483B /* ChatModels.swift */; };
+		14B9B9992AD2F5E60061483B /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 14B9B9982AD2F5E60061483B /* MessageKit */; };
+		14B9B99C2AD2F77D0061483B /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B99B2AD2F77D0061483B /* SearchResult.swift */; };
+		14B9B99F2AD2FC7B0061483B /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B99E2AD2FC7B0061483B /* ConversationTableViewCell.swift */; };
+		14B9B9A12AD2FD680061483B /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9A02AD2FD680061483B /* ProfileViewModel.swift */; };
+		14B9B9A32AD2FDB70061483B /* NewConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9A22AD2FDB70061483B /* NewConversationCell.swift */; };
+		14B9B9A52AD2FDD00061483B /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9A42AD2FDD00061483B /* ConversationsViewController.swift */; };
+		14B9B9A82AD2FE310061483B /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 14B9B9A72AD2FE310061483B /* JGProgressHUD */; };
+		14B9B9AA2AD2FE850061483B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9A92AD2FE850061483B /* LoginViewController.swift */; };
+		14B9B9AC2AD2FEA20061483B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9AB2AD2FEA20061483B /* RegisterViewController.swift */; };
+		14B9B9AE2AD2FED30061483B /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9AD2AD2FED30061483B /* PhotoViewerViewController.swift */; };
+		14B9B9B02AD2FEF00061483B /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9AF2AD2FEF00061483B /* NewConversationViewController.swift */; };
+		14B9B9B22AD2FF100061483B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9B12AD2FF100061483B /* ProfileViewController.swift */; };
+		14B9B9B42AD2FF3B0061483B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9B32AD2FF3B0061483B /* ChatViewController.swift */; };
+		14B9B9B62AD2FF560061483B /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9B52AD2FF560061483B /* LocationPickerViewController.swift */; };
+		14B9B9B82AD3013E0061483B /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9B72AD3013E0061483B /* DatabaseManager.swift */; };
+		14B9B9BA2AD301620061483B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9B92AD301620061483B /* StorageManager.swift */; };
+		14B9B9BC2AD3018D0061483B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9BB2AD3018D0061483B /* Extensions.swift */; };
+		14B9B9BE2AD302270061483B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 14B9B9BD2AD302270061483B /* FirebaseDatabase */; };
+		14B9B9C02AD322850061483B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14B9B9BF2AD322850061483B /* GoogleService-Info.plist */; };
+		14B9B9C42AD8005E0061483B /* HesapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9C32AD8005E0061483B /* HesapTableViewCell.swift */; };
+		14B9B9C62AD8287F0061483B /* HesapBilgilerimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9C52AD8287F0061483B /* HesapBilgilerimViewController.swift */; };
+		14B9B9C82AD829150061483B /* HesapBilgilerimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9C72AD829150061483B /* HesapBilgilerimTableViewCell.swift */; };
+		14B9B9CA2AD82CE50061483B /* KullaniciModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9B9C92AD82CE50061483B /* KullaniciModel.swift */; };
+		14D5EC132AB904D500C286CA /* FiyatDegistirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5EC122AB904D500C286CA /* FiyatDegistirVC.swift */; };
+		14D5EC152AB9091900C286CA /* AcilSatiliktirDegistirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5EC142AB9091900C286CA /* AcilSatiliktirDegistirVC.swift */; };
+		14D5EC182ABA0FAF00C286CA /* HesapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5EC172ABA0FAF00C286CA /* HesapVC.swift */; };
+		14D5EC1A2ABB5CCD00C286CA /* MesajlarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5EC192ABB5CCD00C286CA /* MesajlarVC.swift */; };
+		14DECDA92AB21D8500575F89 /* FotografSecDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDA82AB21D8500575F89 /* FotografSecDetayVC.swift */; };
+		14DECDAB2AB2280F00575F89 /* FotografSecDetayCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDAA2AB2280F00575F89 /* FotografSecDetayCollectionCell.swift */; };
+		14DECDAE2AB3882800575F89 /* MarkaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDAD2AB3882800575F89 /* MarkaTableViewCell.swift */; };
+		14DECDB02AB49C2D00575F89 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDAF2AB49C2D00575F89 /* AnasayfaVC.swift */; };
+		14DECDB32AB5DB3400575F89 /* AnaSayfaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDB22AB5DB3400575F89 /* AnaSayfaCell.swift */; };
+		14DECDB52AB62BBB00575F89 /* AnaSayfaOzellikCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDB42AB62BBB00575F89 /* AnaSayfaOzellikCell.swift */; };
+		14DECDB72AB62BE600575F89 /* AnaSayfaImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDB62AB62BE600575F89 /* AnaSayfaImageCollectionCell.swift */; };
+		14DECDB92AB62C0E00575F89 /* AnaSayfaDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDB82AB62C0E00575F89 /* AnaSayfaDetayViewController.swift */; };
+		14DECDC02AB7629800575F89 /* GorselVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDBF2AB7629800575F89 /* GorselVC.swift */; };
+		14DECDC22AB7644E00575F89 /* GorselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDC12AB7644E00575F89 /* GorselCell.swift */; };
+		14DECDC42AB781B600575F89 /* AcilSatiliklarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDC32AB781B600575F89 /* AcilSatiliklarVC.swift */; };
+		14DECDC62AB781E400575F89 /* AcilSatiliklarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDC52AB781E400575F89 /* AcilSatiliklarCell.swift */; };
+		14DECDC82AB7820100575F89 /* AcilSatiliklarDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDC72AB7820100575F89 /* AcilSatiliklarDetayVC.swift */; };
+		14DECDCA2AB7823000575F89 /* AcilSatiliklarOzellikCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDC92AB7823000575F89 /* AcilSatiliklarOzellikCell.swift */; };
+		14DECDCC2AB7825400575F89 /* AcilSatiliklarCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDCB2AB7825400575F89 /* AcilSatiliklarCollectionCell.swift */; };
+		14DECDD02AB7AAA300575F89 /* AcilSatiliklarGorselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDCF2AB7AAA300575F89 /* AcilSatiliklarGorselCell.swift */; };
+		14DECDD62AB7ACE500575F89 /* AcilSatiliklarGorselVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DECDD52AB7ACE500575F89 /* AcilSatiliklarGorselVC.swift */; };
+		14EF29162AAC95BB0058B17A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 14EF29152AAC95BB0058B17A /* FirebaseAnalytics */; };
+		14EF29182AAC95BB0058B17A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 14EF29172AAC95BB0058B17A /* FirebaseAuth */; };
+		14EF291C2AAC95BB0058B17A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 14EF291B2AAC95BB0058B17A /* FirebaseStorage */; };
+		14EF291F2AACE1840058B17A /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 14EF291E2AACE1840058B17A /* GoogleSignIn */; };
+		14EF29212AACE1840058B17A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 14EF29202AACE1840058B17A /* GoogleSignInSwift */; };
+		14EF29272AAE31690058B17A /* IlanVerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29262AAE31690058B17A /* IlanVerVC.swift */; };
+		14EF29292AAE3C360058B17A /* FotografSecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29282AAE3C360058B17A /* FotografSecVC.swift */; };
+		14EF292B2AAE3E870058B17A /* FotografSecCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF292A2AAE3E870058B17A /* FotografSecCollectionViewCell.swift */; };
+		14EF292D2AAF4F6A0058B17A /* IlanVeriYoneticisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF292C2AAF4F6A0058B17A /* IlanVeriYoneticisi.swift */; };
+		14EF292F2AAF7F9A0058B17A /* MarkaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF292E2AAF7F9A0058B17A /* MarkaVC.swift */; };
+		14EF29312AAF82B10058B17A /* Ilan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29302AAF82B10058B17A /* Ilan.swift */; };
+		14EF29332AAF97BC0058B17A /* ModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29322AAF97BC0058B17A /* ModelVC.swift */; };
+		14EF29352AAF99210058B17A /* RenkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29342AAF99210058B17A /* RenkVC.swift */; };
+		14EF29372AB07A950058B17A /* HafizaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29362AB07A950058B17A /* HafizaVC.swift */; };
+		14EF29392AB07AA50058B17A /* GarantiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29382AB07AA50058B17A /* GarantiVC.swift */; };
+		14EF293B2AB07CAF0058B17A /* TakasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF293A2AB07CAF0058B17A /* TakasVC.swift */; };
+		14EF293D2AB086F20058B17A /* FiyatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF293C2AB086F20058B17A /* FiyatVC.swift */; };
+		14EF293F2AB0987A0058B17A /* iletisimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF293E2AB0987A0058B17A /* iletisimVC.swift */; };
+		14EF29432AB09D5B0058B17A /* BaslikAciklamaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29422AB09D5B0058B17A /* BaslikAciklamaVC.swift */; };
+		14EF29452AB10BCD0058B17A /* KonumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29442AB10BCD0058B17A /* KonumVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1440F5392AB8ADB20073E48D /* IlanlarimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanlarimVC.swift; sourceTree = "<group>"; };
+		1440F53D2AB8AE2E0073E48D /* IlanlarimDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanlarimDetayVC.swift; sourceTree = "<group>"; };
+		1440F53F2AB8AE5B0073E48D /* IlanlarimOzellikCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanlarimOzellikCell.swift; sourceTree = "<group>"; };
+		1440F5412AB8AE870073E48D /* IlanlarimCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanlarimCollectionCell.swift; sourceTree = "<group>"; };
+		1440F5432AB8AF200073E48D /* IlanlarimCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanlarimCell.swift; sourceTree = "<group>"; };
+		1463FB312AC0B16B003E1E13 /* IlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanModel.swift; sourceTree = "<group>"; };
+		149579002AF284A400923E67 /* IsletmeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsletmeVC.swift; sourceTree = "<group>"; };
+		149579022AF3D52C00923E67 /* IsletmeProfiliVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsletmeProfiliVC.swift; sourceTree = "<group>"; };
+		149579042AF3E67B00923E67 /* IsletmelerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsletmelerViewController.swift; sourceTree = "<group>"; };
+		149579062AF3EA9100923E67 /* isletmelerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isletmelerTableViewCell.swift; sourceTree = "<group>"; };
+		149579082AF3F20A00923E67 /* IsletmeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsletmeModel.swift; sourceTree = "<group>"; };
+		1495790A2AF68CD500923E67 /* IsletmelerDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsletmelerDetayVC.swift; sourceTree = "<group>"; };
+		14A2A4382AAB2894004D5A88 /* MobilVery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilVery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A2A43B2AAB2894004D5A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14A2A43D2AAB2894004D5A88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14A2A43F2AAB2894004D5A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14A2A4422AAB2894004D5A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14A2A4442AAB2895004D5A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14A2A4472AAB2895004D5A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14A2A4492AAB2895004D5A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A2A4512AABA2A4004D5A88 /* GirisYapEpostaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisYapEpostaVC.swift; sourceTree = "<group>"; };
+		14A2A4562AABAD5A004D5A88 /* HesapOlusturVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesapOlusturVC.swift; sourceTree = "<group>"; };
+		14A2A4582AABBC52004D5A88 /* HesapOlusturEpostaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesapOlusturEpostaVC.swift; sourceTree = "<group>"; };
+		14A2A45A2AABBD89004D5A88 /* HesapOlusturSifreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesapOlusturSifreVC.swift; sourceTree = "<group>"; };
+		14AB636C2AC7010700A32061 /* KategoriAcilSatilikCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriAcilSatilikCollectionViewCell.swift; sourceTree = "<group>"; };
+		14AB636F2AC7113B00A32061 /* MesajlarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajlarTableViewCell.swift; sourceTree = "<group>"; };
+		14AB63712AC7154200A32061 /* AnaSayfaMesajGonderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaMesajGonderVC.swift; sourceTree = "<group>"; };
+		14AB63732AC7157C00A32061 /* AnaSayfaMesajGonderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaMesajGonderTableCell.swift; sourceTree = "<group>"; };
+		14AB63752AC7164A00A32061 /* Mesaj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesaj.swift; sourceTree = "<group>"; };
+		14AB63772AC8419D00A32061 /* MesajlarOnizleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajlarOnizleme.swift; sourceTree = "<group>"; };
+		14AB63792AC84AF400A32061 /* MesajlarIcerikVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajlarIcerikVC.swift; sourceTree = "<group>"; };
+		14AB637B2AC84B4100A32061 /* MesajlarIcerikTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajlarIcerikTableViewCell.swift; sourceTree = "<group>"; };
+		14B034032AC5FA32007A07C0 /* KategoriCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriCollectionViewCell.swift; sourceTree = "<group>"; };
+		14B9B9932AD2F4830061483B /* ConversationsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsModels.swift; sourceTree = "<group>"; };
+		14B9B9952AD2F5450061483B /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
+		14B9B99B2AD2F77D0061483B /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		14B9B99E2AD2FC7B0061483B /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		14B9B9A02AD2FD680061483B /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		14B9B9A22AD2FDB70061483B /* NewConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationCell.swift; sourceTree = "<group>"; };
+		14B9B9A42AD2FDD00061483B /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		14B9B9A92AD2FE850061483B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		14B9B9AB2AD2FEA20061483B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		14B9B9AD2AD2FED30061483B /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		14B9B9AF2AD2FEF00061483B /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		14B9B9B12AD2FF100061483B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		14B9B9B32AD2FF3B0061483B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		14B9B9B52AD2FF560061483B /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
+		14B9B9B72AD3013E0061483B /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		14B9B9B92AD301620061483B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		14B9B9BB2AD3018D0061483B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		14B9B9BF2AD322850061483B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		14B9B9C32AD8005E0061483B /* HesapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesapTableViewCell.swift; sourceTree = "<group>"; };
+		14B9B9C52AD8287F0061483B /* HesapBilgilerimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesapBilgilerimViewController.swift; sourceTree = "<group>"; };
+		14B9B9C72AD829150061483B /* HesapBilgilerimTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesapBilgilerimTableViewCell.swift; sourceTree = "<group>"; };
+		14B9B9C92AD82CE50061483B /* KullaniciModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciModel.swift; sourceTree = "<group>"; };
+		14D5EC122AB904D500C286CA /* FiyatDegistirVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiyatDegistirVC.swift; sourceTree = "<group>"; };
+		14D5EC142AB9091900C286CA /* AcilSatiliktirDegistirVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcilSatiliktirDegistirVC.swift; sourceTree = "<group>"; };
+		14D5EC172ABA0FAF00C286CA /* HesapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesapVC.swift; sourceTree = "<group>"; };
+		14D5EC192ABB5CCD00C286CA /* MesajlarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajlarVC.swift; sourceTree = "<group>"; };
+		14DECDA82AB21D8500575F89 /* FotografSecDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotografSecDetayVC.swift; sourceTree = "<group>"; };
+		14DECDAA2AB2280F00575F89 /* FotografSecDetayCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotografSecDetayCollectionCell.swift; sourceTree = "<group>"; };
+		14DECDAD2AB3882800575F89 /* MarkaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkaTableViewCell.swift; sourceTree = "<group>"; };
+		14DECDAF2AB49C2D00575F89 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
+		14DECDB22AB5DB3400575F89 /* AnaSayfaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaCell.swift; sourceTree = "<group>"; };
+		14DECDB42AB62BBB00575F89 /* AnaSayfaOzellikCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaOzellikCell.swift; sourceTree = "<group>"; };
+		14DECDB62AB62BE600575F89 /* AnaSayfaImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaImageCollectionCell.swift; sourceTree = "<group>"; };
+		14DECDB82AB62C0E00575F89 /* AnaSayfaDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaDetayViewController.swift; sourceTree = "<group>"; };
+		14DECDBB2AB7512000575F89 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		14DECDBD2AB7514200575F89 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14DECDBF2AB7629800575F89 /* GorselVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorselVC.swift; sourceTree = "<group>"; };
+		14DECDC12AB7644E00575F89 /* GorselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorselCell.swift; sourceTree = "<group>"; };
+		14DECDC32AB781B600575F89 /* AcilSatiliklarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcilSatiliklarVC.swift; sourceTree = "<group>"; };
+		14DECDC52AB781E400575F89 /* AcilSatiliklarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcilSatiliklarCell.swift; sourceTree = "<group>"; };
+		14DECDC72AB7820100575F89 /* AcilSatiliklarDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcilSatiliklarDetayVC.swift; sourceTree = "<group>"; };
+		14DECDC92AB7823000575F89 /* AcilSatiliklarOzellikCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcilSatiliklarOzellikCell.swift; sourceTree = "<group>"; };
+		14DECDCB2AB7825400575F89 /* AcilSatiliklarCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcilSatiliklarCollectionCell.swift; sourceTree = "<group>"; };
+		14DECDCF2AB7AAA300575F89 /* AcilSatiliklarGorselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcilSatiliklarGorselCell.swift; sourceTree = "<group>"; };
+		14DECDD52AB7ACE500575F89 /* AcilSatiliklarGorselVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AcilSatiliklarGorselVC.swift; path = ../AcilSatiliklarGorselVC.swift; sourceTree = "<group>"; };
+		14EF29262AAE31690058B17A /* IlanVerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanVerVC.swift; sourceTree = "<group>"; };
+		14EF29282AAE3C360058B17A /* FotografSecVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotografSecVC.swift; sourceTree = "<group>"; };
+		14EF292A2AAE3E870058B17A /* FotografSecCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotografSecCollectionViewCell.swift; sourceTree = "<group>"; };
+		14EF292C2AAF4F6A0058B17A /* IlanVeriYoneticisi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanVeriYoneticisi.swift; sourceTree = "<group>"; };
+		14EF292E2AAF7F9A0058B17A /* MarkaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkaVC.swift; sourceTree = "<group>"; };
+		14EF29302AAF82B10058B17A /* Ilan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ilan.swift; sourceTree = "<group>"; };
+		14EF29322AAF97BC0058B17A /* ModelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelVC.swift; sourceTree = "<group>"; };
+		14EF29342AAF99210058B17A /* RenkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenkVC.swift; sourceTree = "<group>"; };
+		14EF29362AB07A950058B17A /* HafizaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HafizaVC.swift; sourceTree = "<group>"; };
+		14EF29382AB07AA50058B17A /* GarantiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarantiVC.swift; sourceTree = "<group>"; };
+		14EF293A2AB07CAF0058B17A /* TakasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakasVC.swift; sourceTree = "<group>"; };
+		14EF293C2AB086F20058B17A /* FiyatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiyatVC.swift; sourceTree = "<group>"; };
+		14EF293E2AB0987A0058B17A /* iletisimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iletisimVC.swift; sourceTree = "<group>"; };
+		14EF29422AB09D5B0058B17A /* BaslikAciklamaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaslikAciklamaVC.swift; sourceTree = "<group>"; };
+		14EF29442AB10BCD0058B17A /* KonumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonumVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A2A4352AAB2894004D5A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B9B9BE2AD302270061483B /* FirebaseDatabase in Frameworks */,
+				14EF291F2AACE1840058B17A /* GoogleSignIn in Frameworks */,
+				14EF29162AAC95BB0058B17A /* FirebaseAnalytics in Frameworks */,
+				14EF291C2AAC95BB0058B17A /* FirebaseStorage in Frameworks */,
+				14B034022AC3142E007A07C0 /* SDWebImage in Frameworks */,
+				14EF29212AACE1840058B17A /* GoogleSignInSwift in Frameworks */,
+				14EF29182AAC95BB0058B17A /* FirebaseAuth in Frameworks */,
+				14B034062AC6D477007A07C0 /* FirebaseFirestore in Frameworks */,
+				14B9B9A82AD2FE310061483B /* JGProgressHUD in Frameworks */,
+				14B9B9992AD2F5E60061483B /* MessageKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A2A42F2AAB2894004D5A88 = {
+			isa = PBXGroup;
+			children = (
+				14A2A43A2AAB2894004D5A88 /* MobilVery */,
+				14A2A4392AAB2894004D5A88 /* Products */,
+				14DECDBA2AB7511F00575F89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14A2A4392AAB2894004D5A88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14A2A4382AAB2894004D5A88 /* MobilVery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A2A43A2AAB2894004D5A88 /* MobilVery */ = {
+			isa = PBXGroup;
+			children = (
+				14B9B99D2AD2FB040061483B /* MesajlarEntegre */,
+				14B9B99A2AD2F7500061483B /* Models */,
+				14A2A4412AAB2894004D5A88 /* Main.storyboard */,
+				14AB636E2AC7111400A32061 /* Mesajlar */,
+				14D5EC1B2ABC6E3D00C286CA /* Ilanlarim */,
+				14D5EC162ABA0F9800C286CA /* Hesap */,
+				14DECDB12AB5DB0F00575F89 /* AnaSayfa */,
+				14DECDAC2AB3848700575F89 /* ilanVer */,
+				14EF29252AAE31340058B17A /* ViewControllers */,
+				14A2A4552AABA85D004D5A88 /* Delegate */,
+				14A2A4442AAB2895004D5A88 /* Assets.xcassets */,
+				14A2A4462AAB2895004D5A88 /* LaunchScreen.storyboard */,
+				14B9B9BF2AD322850061483B /* GoogleService-Info.plist */,
+				14A2A4492AAB2895004D5A88 /* Info.plist */,
+			);
+			path = MobilVery;
+			sourceTree = "<group>";
+		};
+		14A2A4552AABA85D004D5A88 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				14A2A43D2AAB2894004D5A88 /* SceneDelegate.swift */,
+				14A2A43B2AAB2894004D5A88 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		14AB636E2AC7111400A32061 /* Mesajlar */ = {
+			isa = PBXGroup;
+			children = (
+				14D5EC192ABB5CCD00C286CA /* MesajlarVC.swift */,
+				14AB636F2AC7113B00A32061 /* MesajlarTableViewCell.swift */,
+				14AB63772AC8419D00A32061 /* MesajlarOnizleme.swift */,
+				14AB63792AC84AF400A32061 /* MesajlarIcerikVC.swift */,
+				14AB637B2AC84B4100A32061 /* MesajlarIcerikTableViewCell.swift */,
+			);
+			path = Mesajlar;
+			sourceTree = "<group>";
+		};
+		14B9B99A2AD2F7500061483B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1463FB312AC0B16B003E1E13 /* IlanModel.swift */,
+				14AB63752AC7164A00A32061 /* Mesaj.swift */,
+				149579082AF3F20A00923E67 /* IsletmeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14B9B99D2AD2FB040061483B /* MesajlarEntegre */ = {
+			isa = PBXGroup;
+			children = (
+				14B9B9932AD2F4830061483B /* ConversationsModels.swift */,
+				14B9B9952AD2F5450061483B /* ChatModels.swift */,
+				14B9B99B2AD2F77D0061483B /* SearchResult.swift */,
+				14B9B9A02AD2FD680061483B /* ProfileViewModel.swift */,
+				14B9B99E2AD2FC7B0061483B /* ConversationTableViewCell.swift */,
+				14B9B9A22AD2FDB70061483B /* NewConversationCell.swift */,
+				14B9B9A42AD2FDD00061483B /* ConversationsViewController.swift */,
+				14B9B9AD2AD2FED30061483B /* PhotoViewerViewController.swift */,
+				14B9B9AF2AD2FEF00061483B /* NewConversationViewController.swift */,
+				14B9B9B12AD2FF100061483B /* ProfileViewController.swift */,
+				14B9B9B32AD2FF3B0061483B /* ChatViewController.swift */,
+				14B9B9B52AD2FF560061483B /* LocationPickerViewController.swift */,
+				14B9B9B72AD3013E0061483B /* DatabaseManager.swift */,
+				14B9B9B92AD301620061483B /* StorageManager.swift */,
+				14B9B9BB2AD3018D0061483B /* Extensions.swift */,
+			);
+			path = MesajlarEntegre;
+			sourceTree = "<group>";
+		};
+		14D5EC162ABA0F9800C286CA /* Hesap */ = {
+			isa = PBXGroup;
+			children = (
+				14D5EC172ABA0FAF00C286CA /* HesapVC.swift */,
+				14B9B9C32AD8005E0061483B /* HesapTableViewCell.swift */,
+				14B9B9C52AD8287F0061483B /* HesapBilgilerimViewController.swift */,
+				14B9B9C72AD829150061483B /* HesapBilgilerimTableViewCell.swift */,
+				14B9B9C92AD82CE50061483B /* KullaniciModel.swift */,
+				149579002AF284A400923E67 /* IsletmeVC.swift */,
+				149579022AF3D52C00923E67 /* IsletmeProfiliVC.swift */,
+			);
+			path = Hesap;
+			sourceTree = "<group>";
+		};
+		14D5EC1B2ABC6E3D00C286CA /* Ilanlarim */ = {
+			isa = PBXGroup;
+			children = (
+				1440F5392AB8ADB20073E48D /* IlanlarimVC.swift */,
+				1440F5432AB8AF200073E48D /* IlanlarimCell.swift */,
+				1440F53D2AB8AE2E0073E48D /* IlanlarimDetayVC.swift */,
+				1440F53F2AB8AE5B0073E48D /* IlanlarimOzellikCell.swift */,
+				1440F5412AB8AE870073E48D /* IlanlarimCollectionCell.swift */,
+				14D5EC122AB904D500C286CA /* FiyatDegistirVC.swift */,
+				14D5EC142AB9091900C286CA /* AcilSatiliktirDegistirVC.swift */,
+			);
+			path = Ilanlarim;
+			sourceTree = "<group>";
+		};
+		14DECDAC2AB3848700575F89 /* ilanVer */ = {
+			isa = PBXGroup;
+			children = (
+				14EF29442AB10BCD0058B17A /* KonumVC.swift */,
+				14EF29422AB09D5B0058B17A /* BaslikAciklamaVC.swift */,
+				14EF293E2AB0987A0058B17A /* iletisimVC.swift */,
+				14EF293C2AB086F20058B17A /* FiyatVC.swift */,
+				14EF293A2AB07CAF0058B17A /* TakasVC.swift */,
+				14EF29362AB07A950058B17A /* HafizaVC.swift */,
+				14EF29382AB07AA50058B17A /* GarantiVC.swift */,
+				14EF29342AAF99210058B17A /* RenkVC.swift */,
+				14EF29322AAF97BC0058B17A /* ModelVC.swift */,
+				14DECDAD2AB3882800575F89 /* MarkaTableViewCell.swift */,
+				14EF292E2AAF7F9A0058B17A /* MarkaVC.swift */,
+				14DECDAA2AB2280F00575F89 /* FotografSecDetayCollectionCell.swift */,
+				14DECDA82AB21D8500575F89 /* FotografSecDetayVC.swift */,
+				14EF292A2AAE3E870058B17A /* FotografSecCollectionViewCell.swift */,
+				14EF29282AAE3C360058B17A /* FotografSecVC.swift */,
+				14EF29262AAE31690058B17A /* IlanVerVC.swift */,
+				14EF292C2AAF4F6A0058B17A /* IlanVeriYoneticisi.swift */,
+				14EF29302AAF82B10058B17A /* Ilan.swift */,
+			);
+			path = ilanVer;
+			sourceTree = "<group>";
+		};
+		14DECDB12AB5DB0F00575F89 /* AnaSayfa */ = {
+			isa = PBXGroup;
+			children = (
+				14DECDAF2AB49C2D00575F89 /* AnasayfaVC.swift */,
+				14DECDB22AB5DB3400575F89 /* AnaSayfaCell.swift */,
+				14DECDB82AB62C0E00575F89 /* AnaSayfaDetayViewController.swift */,
+				14DECDB42AB62BBB00575F89 /* AnaSayfaOzellikCell.swift */,
+				14DECDB62AB62BE600575F89 /* AnaSayfaImageCollectionCell.swift */,
+				14DECDBF2AB7629800575F89 /* GorselVC.swift */,
+				14DECDC12AB7644E00575F89 /* GorselCell.swift */,
+				14B034032AC5FA32007A07C0 /* KategoriCollectionViewCell.swift */,
+				14DECDC32AB781B600575F89 /* AcilSatiliklarVC.swift */,
+				14DECDC52AB781E400575F89 /* AcilSatiliklarCell.swift */,
+				14DECDC72AB7820100575F89 /* AcilSatiliklarDetayVC.swift */,
+				14DECDC92AB7823000575F89 /* AcilSatiliklarOzellikCell.swift */,
+				14DECDCB2AB7825400575F89 /* AcilSatiliklarCollectionCell.swift */,
+				14DECDD52AB7ACE500575F89 /* AcilSatiliklarGorselVC.swift */,
+				14DECDCF2AB7AAA300575F89 /* AcilSatiliklarGorselCell.swift */,
+				14AB636C2AC7010700A32061 /* KategoriAcilSatilikCollectionViewCell.swift */,
+				14AB63712AC7154200A32061 /* AnaSayfaMesajGonderVC.swift */,
+				14AB63732AC7157C00A32061 /* AnaSayfaMesajGonderTableCell.swift */,
+				149579042AF3E67B00923E67 /* IsletmelerViewController.swift */,
+				149579062AF3EA9100923E67 /* isletmelerTableViewCell.swift */,
+				1495790A2AF68CD500923E67 /* IsletmelerDetayVC.swift */,
+			);
+			path = AnaSayfa;
+			sourceTree = "<group>";
+		};
+		14DECDBA2AB7511F00575F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DECDBD2AB7514200575F89 /* CoreLocation.framework */,
+				14DECDBB2AB7512000575F89 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14EF29252AAE31340058B17A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				14B9B9A92AD2FE850061483B /* LoginViewController.swift */,
+				14B9B9AB2AD2FEA20061483B /* RegisterViewController.swift */,
+				14A2A4512AABA2A4004D5A88 /* GirisYapEpostaVC.swift */,
+				14A2A45A2AABBD89004D5A88 /* HesapOlusturSifreVC.swift */,
+				14A2A4582AABBC52004D5A88 /* HesapOlusturEpostaVC.swift */,
+				14A2A4562AABAD5A004D5A88 /* HesapOlusturVC.swift */,
+				14A2A43F2AAB2894004D5A88 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14A2A4372AAB2894004D5A88 /* MobilVery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A2A44C2AAB2895004D5A88 /* Build configuration list for PBXNativeTarget "MobilVery" */;
+			buildPhases = (
+				14A2A4342AAB2894004D5A88 /* Sources */,
+				14A2A4352AAB2894004D5A88 /* Frameworks */,
+				14A2A4362AAB2894004D5A88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobilVery;
+			packageProductDependencies = (
+				14EF29152AAC95BB0058B17A /* FirebaseAnalytics */,
+				14EF29172AAC95BB0058B17A /* FirebaseAuth */,
+				14EF291B2AAC95BB0058B17A /* FirebaseStorage */,
+				14EF291E2AACE1840058B17A /* GoogleSignIn */,
+				14EF29202AACE1840058B17A /* GoogleSignInSwift */,
+				14B034012AC3142E007A07C0 /* SDWebImage */,
+				14B034052AC6D477007A07C0 /* FirebaseFirestore */,
+				14B9B9982AD2F5E60061483B /* MessageKit */,
+				14B9B9A72AD2FE310061483B /* JGProgressHUD */,
+				14B9B9BD2AD302270061483B /* FirebaseDatabase */,
+			);
+			productName = MobilVery;
+			productReference = 14A2A4382AAB2894004D5A88 /* MobilVery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14A2A4302AAB2894004D5A88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					14A2A4372AAB2894004D5A88 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 14A2A4332AAB2894004D5A88 /* Build configuration list for PBXProject "MobilVery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14A2A42F2AAB2894004D5A88;
+			packageReferences = (
+				14EF29142AAC95BB0058B17A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				14EF291D2AACE1840058B17A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				14B034002AC3142E007A07C0 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				14B9B9972AD2F5E60061483B /* XCRemoteSwiftPackageReference "MessageKit" */,
+				14B9B9A62AD2FE310061483B /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
+			productRefGroup = 14A2A4392AAB2894004D5A88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14A2A4372AAB2894004D5A88 /* MobilVery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A2A4362AAB2894004D5A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A2A4482AAB2895004D5A88 /* LaunchScreen.storyboard in Resources */,
+				14B9B9C02AD322850061483B /* GoogleService-Info.plist in Resources */,
+				14A2A4452AAB2895004D5A88 /* Assets.xcassets in Resources */,
+				14A2A4432AAB2894004D5A88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A2A4342AAB2894004D5A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D5EC132AB904D500C286CA /* FiyatDegistirVC.swift in Sources */,
+				14DECDCC2AB7825400575F89 /* AcilSatiliklarCollectionCell.swift in Sources */,
+				14EF293F2AB0987A0058B17A /* iletisimVC.swift in Sources */,
+				14EF292B2AAE3E870058B17A /* FotografSecCollectionViewCell.swift in Sources */,
+				14EF29292AAE3C360058B17A /* FotografSecVC.swift in Sources */,
+				14B9B9AE2AD2FED30061483B /* PhotoViewerViewController.swift in Sources */,
+				149579012AF284A400923E67 /* IsletmeVC.swift in Sources */,
+				14EF29352AAF99210058B17A /* RenkVC.swift in Sources */,
+				14DECDC02AB7629800575F89 /* GorselVC.swift in Sources */,
+				14AB637C2AC84B4100A32061 /* MesajlarIcerikTableViewCell.swift in Sources */,
+				14B9B9BA2AD301620061483B /* StorageManager.swift in Sources */,
+				14EF292D2AAF4F6A0058B17A /* IlanVeriYoneticisi.swift in Sources */,
+				14D5EC152AB9091900C286CA /* AcilSatiliktirDegistirVC.swift in Sources */,
+				14DECDAB2AB2280F00575F89 /* FotografSecDetayCollectionCell.swift in Sources */,
+				149579032AF3D52C00923E67 /* IsletmeProfiliVC.swift in Sources */,
+				14DECDD62AB7ACE500575F89 /* AcilSatiliklarGorselVC.swift in Sources */,
+				14A2A4572AABAD5A004D5A88 /* HesapOlusturVC.swift in Sources */,
+				14DECDC82AB7820100575F89 /* AcilSatiliklarDetayVC.swift in Sources */,
+				14B9B9B02AD2FEF00061483B /* NewConversationViewController.swift in Sources */,
+				14EF29372AB07A950058B17A /* HafizaVC.swift in Sources */,
+				14AB63722AC7154200A32061 /* AnaSayfaMesajGonderVC.swift in Sources */,
+				14D5EC182ABA0FAF00C286CA /* HesapVC.swift in Sources */,
+				14DECDC42AB781B600575F89 /* AcilSatiliklarVC.swift in Sources */,
+				14DECDB72AB62BE600575F89 /* AnaSayfaImageCollectionCell.swift in Sources */,
+				1440F53A2AB8ADB20073E48D /* IlanlarimVC.swift in Sources */,
+				14EF29432AB09D5B0058B17A /* BaslikAciklamaVC.swift in Sources */,
+				14D5EC1A2ABB5CCD00C286CA /* MesajlarVC.swift in Sources */,
+				14A2A4592AABBC52004D5A88 /* HesapOlusturEpostaVC.swift in Sources */,
+				14A2A4402AAB2894004D5A88 /* ViewController.swift in Sources */,
+				14EF293D2AB086F20058B17A /* FiyatVC.swift in Sources */,
+				14B9B9A32AD2FDB70061483B /* NewConversationCell.swift in Sources */,
+				14DECDA92AB21D8500575F89 /* FotografSecDetayVC.swift in Sources */,
+				14AB63702AC7113B00A32061 /* MesajlarTableViewCell.swift in Sources */,
+				14B9B99C2AD2F77D0061483B /* SearchResult.swift in Sources */,
+				14EF29332AAF97BC0058B17A /* ModelVC.swift in Sources */,
+				14B9B9B42AD2FF3B0061483B /* ChatViewController.swift in Sources */,
+				14B9B9B22AD2FF100061483B /* ProfileViewController.swift in Sources */,
+				1440F53E2AB8AE2E0073E48D /* IlanlarimDetayVC.swift in Sources */,
+				14AB63742AC7157C00A32061 /* AnaSayfaMesajGonderTableCell.swift in Sources */,
+				14DECDB02AB49C2D00575F89 /* AnasayfaVC.swift in Sources */,
+				14B9B9942AD2F4830061483B /* ConversationsModels.swift in Sources */,
+				14B9B9C42AD8005E0061483B /* HesapTableViewCell.swift in Sources */,
+				14EF293B2AB07CAF0058B17A /* TakasVC.swift in Sources */,
+				14EF29452AB10BCD0058B17A /* KonumVC.swift in Sources */,
+				14DECDB92AB62C0E00575F89 /* AnaSayfaDetayViewController.swift in Sources */,
+				14A2A45B2AABBD89004D5A88 /* HesapOlusturSifreVC.swift in Sources */,
+				1440F5442AB8AF200073E48D /* IlanlarimCell.swift in Sources */,
+				14B9B9CA2AD82CE50061483B /* KullaniciModel.swift in Sources */,
+				14AB63782AC8419D00A32061 /* MesajlarOnizleme.swift in Sources */,
+				149579072AF3EA9100923E67 /* isletmelerTableViewCell.swift in Sources */,
+				14DECDD02AB7AAA300575F89 /* AcilSatiliklarGorselCell.swift in Sources */,
+				14EF29272AAE31690058B17A /* IlanVerVC.swift in Sources */,
+				14B034042AC5FA32007A07C0 /* KategoriCollectionViewCell.swift in Sources */,
+				14AB63762AC7164A00A32061 /* Mesaj.swift in Sources */,
+				14EF29392AB07AA50058B17A /* GarantiVC.swift in Sources */,
+				14DECDC22AB7644E00575F89 /* GorselCell.swift in Sources */,
+				14B9B9B82AD3013E0061483B /* DatabaseManager.swift in Sources */,
+				14B9B9C82AD829150061483B /* HesapBilgilerimTableViewCell.swift in Sources */,
+				1440F5402AB8AE5B0073E48D /* IlanlarimOzellikCell.swift in Sources */,
+				1495790B2AF68CD500923E67 /* IsletmelerDetayVC.swift in Sources */,
+				1440F5422AB8AE870073E48D /* IlanlarimCollectionCell.swift in Sources */,
+				14B9B9962AD2F5450061483B /* ChatModels.swift in Sources */,
+				14B9B9A12AD2FD680061483B /* ProfileViewModel.swift in Sources */,
+				14B9B99F2AD2FC7B0061483B /* ConversationTableViewCell.swift in Sources */,
+				14B9B9B62AD2FF560061483B /* LocationPickerViewController.swift in Sources */,
+				14B9B9A52AD2FDD00061483B /* ConversationsViewController.swift in Sources */,
+				14EF29312AAF82B10058B17A /* Ilan.swift in Sources */,
+				14AB636D2AC7010700A32061 /* KategoriAcilSatilikCollectionViewCell.swift in Sources */,
+				14B9B9AA2AD2FE850061483B /* LoginViewController.swift in Sources */,
+				14AB637A2AC84AF400A32061 /* MesajlarIcerikVC.swift in Sources */,
+				149579092AF3F20A00923E67 /* IsletmeModel.swift in Sources */,
+				14A2A43C2AAB2894004D5A88 /* AppDelegate.swift in Sources */,
+				14EF292F2AAF7F9A0058B17A /* MarkaVC.swift in Sources */,
+				14DECDCA2AB7823000575F89 /* AcilSatiliklarOzellikCell.swift in Sources */,
+				14B9B9AC2AD2FEA20061483B /* RegisterViewController.swift in Sources */,
+				14DECDC62AB781E400575F89 /* AcilSatiliklarCell.swift in Sources */,
+				14A2A4522AABA2A5004D5A88 /* GirisYapEpostaVC.swift in Sources */,
+				149579052AF3E67B00923E67 /* IsletmelerViewController.swift in Sources */,
+				14A2A43E2AAB2894004D5A88 /* SceneDelegate.swift in Sources */,
+				14B9B9C62AD8287F0061483B /* HesapBilgilerimViewController.swift in Sources */,
+				14B9B9BC2AD3018D0061483B /* Extensions.swift in Sources */,
+				1463FB322AC0B16B003E1E13 /* IlanModel.swift in Sources */,
+				14DECDAE2AB3882800575F89 /* MarkaTableViewCell.swift in Sources */,
+				14DECDB52AB62BBB00575F89 /* AnaSayfaOzellikCell.swift in Sources */,
+				14DECDB32AB5DB3400575F89 /* AnaSayfaCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14A2A4412AAB2894004D5A88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A2A4422AAB2894004D5A88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14A2A4462AAB2895004D5A88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A2A4472AAB2895004D5A88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14A2A44A2AAB2895004D5A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14A2A44B2AAB2895004D5A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14A2A44D2AAB2895004D5A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RB89U83MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobilVery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ozelmuhammedveyselozel.mobilvery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14A2A44E2AAB2895004D5A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RB89U83MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobilVery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ozelmuhammedveyselozel.mobilvery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A2A4332AAB2894004D5A88 /* Build configuration list for PBXProject "MobilVery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A2A44A2AAB2895004D5A88 /* Debug */,
+				14A2A44B2AAB2895004D5A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A2A44C2AAB2895004D5A88 /* Build configuration list for PBXNativeTarget "MobilVery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A2A44D2AAB2895004D5A88 /* Debug */,
+				14A2A44E2AAB2895004D5A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14B034002AC3142E007A07C0 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		14B9B9972AD2F5E60061483B /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		14B9B9A62AD2FE310061483B /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		14EF29142AAC95BB0058B17A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		14EF291D2AACE1840058B17A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14B034012AC3142E007A07C0 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14B034002AC3142E007A07C0 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		14B034052AC6D477007A07C0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14EF29142AAC95BB0058B17A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		14B9B9982AD2F5E60061483B /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14B9B9972AD2F5E60061483B /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		14B9B9A72AD2FE310061483B /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14B9B9A62AD2FE310061483B /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		14B9B9BD2AD302270061483B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14EF29142AAC95BB0058B17A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		14EF29152AAC95BB0058B17A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14EF29142AAC95BB0058B17A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		14EF29172AAC95BB0058B17A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14EF29142AAC95BB0058B17A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		14EF291B2AAC95BB0058B17A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14EF29142AAC95BB0058B17A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		14EF291E2AACE1840058B17A /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14EF291D2AACE1840058B17A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		14EF29202AACE1840058B17A /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14EF291D2AACE1840058B17A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 14A2A4302AAB2894004D5A88 /* Project object */;
+}

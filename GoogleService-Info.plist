@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>60772456562-fung4ah1rli4g3oc4aplhirsl3c1dgki.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.60772456562-fung4ah1rli4g3oc4aplhirsl3c1dgki</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDsVLVrTf_jRi_amYHmnEInyo5JAMa4Gko</string>
+	<key>GCM_SENDER_ID</key>
+	<string>60772456562</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ozelmuhammedveyselozel.mobilvery</string>
+	<key>PROJECT_ID</key>
+	<string>mobilvery-83409</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mobilvery-83409.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:60772456562:ios:298152dd43e54197364aeb</string>
+	<key>DATABASE_URL</key>
+	<string>https://mobilvery-83409-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>
